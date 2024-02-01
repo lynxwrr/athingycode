@@ -71,3 +71,5 @@ client.on("message", async function (message) {
 });
 
 client.login();
+
+const keep_alive = require('./keep_alive.js')
